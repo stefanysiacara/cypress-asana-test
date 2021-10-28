@@ -1,4 +1,4 @@
-//import {isEmail} from "./cypress/support/auxiliar.js"
+import {isEmail} from "./cypress/support/auxiliar.js"
 describe('Login page', () => {
   it('Verify we can login with a valid account', () => {
     cy.visit('/');
