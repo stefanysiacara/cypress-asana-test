@@ -5,6 +5,7 @@ const LOGIN_BUTTON = 'button[data-test-id =log-in-submit-button]';
 
 export const login = {
   userLogin(){
+    cy.visit('/');
     cy.get(INPUT_LOGIN_OPTION).click();
     cy.get(INPUT_EMAIL).type(Cypress.env('USER_EMAIL'));
     cy.get(INPUT_PASSWORD).type(Cypress.env('USER_PASSWORD'));

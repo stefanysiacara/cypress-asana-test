@@ -6,7 +6,6 @@ const PANEL_COURSE_LIST = 'div[class="_n4d7gpg"]';
 export const coursesList = {
   editCoursesButton()
   {
-    //cy.wait(15000);
     cy.get(EDIT_COURSES_BUTTON,{timeout:15000}).should("be.visible")
     cy.get(EDIT_COURSES_BUTTON).click();
   },

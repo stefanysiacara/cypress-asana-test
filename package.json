@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^8.7.0",
-    "nickname-generator-nodejs": "^1.0.7"
+    "cypress": "8.7.0",
+    "nickname-generator-nodejs": "1.0.7"
   }
 }
